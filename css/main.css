@@ -1,0 +1,115 @@
+* RESET Styles */ body,
+p,
+h2,
+h1 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* BASE */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    width: 1603px;
+    height: 736px;
+    background-color: #f6f6f6;
+    font-family: 'Lato', sans-serif;
+}
+
+.title {
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #3c3c3c;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.border {
+    width: 45px;
+    border-bottom: 4px solid #dddbdb;
+    margin: 0 auto;
+}
+
+.subtitle {
+    width: 570px;
+    height: 330px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3c3c3c;
+    font-weight: 300;
+    font-family: "Lato";
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 269px;
+    height: 268px;
+    background-color: #dadada;
+}
+
+.card-foto {
+    position: relative;
+    width: 269px;
+    height: 268px;
+}
+
+.block {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #00aed9;
+    display: none;
+    width: 269px;
+    height: 268px;
+}
+
+.icon-facebook-f-brands,
+.icon-google-plus-g-brands,
+.icon-twitter-brands {
+    color: #fff;
+    width: 42px;
+    height: 42px;
+    background-color: #6bbccf;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Font Awesome";
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card-foto:hover .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 18px;
+    line-height: 18px;
+    color: #282528;
+    font-weight: 700;
+    font-family: "Lato";
+}
